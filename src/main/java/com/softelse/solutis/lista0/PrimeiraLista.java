@@ -1,4 +1,4 @@
-package com.softelse.solutis.lista01;
+package com.softelse.solutis.lista0;
 
 import java.util.Scanner;
 
