@@ -41,8 +41,15 @@ possuir o valor da variável A. Apresentar os valores trocados.
         }
 
 
-
-
+/*
+10. Faça um programa com 3 variáveis do tipo inteiro (int) tal que a primeira tenha o valor de 6, a segunda o valor 4 e a terceira receba o valor da divisão da
+primeira pela segunda. Exiba o valor da terceira variável. Faça uma análise do
+resultado.
+*/
+        int primeiroNumero = 6;
+        int segundoNumero = 4;
+        int resultadoDivisao = primeiroNumero / segundoNumero;
+        System.out.println("O resultado da divisão de " + primeiroNumero + " por " + segundoNumero + " é: " + resultadoDivisao);
 
 
 
