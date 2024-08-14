@@ -52,6 +52,35 @@ resultado.
         System.out.println("O resultado da divisão de " + primeiroNumero + " por " + segundoNumero + " é: " + resultadoDivisao);
 
 
+/*
+11. Utilize a estrutura if para fazer um programa que retorne o nome de um
+produto a partir do código do mesmo. Considere os seguintes códigos:
+001 ? Parafuso;
+002 ? Porca;
+003 ? Prego;
+Para qualquer outro código: XXX ? Diversos.
+*/
+        System.out.print("Digite o código do produto (001, 002, 003): ");
+        int codigoProduto = sc.nextInt();
+        if (codigoProduto == 001) {
+            System.out.println("Produto: Parafuso");
+        } else if (codigoProduto == 002) {
+            System.out.println("Produto: Porca");
+        } else if (codigoProduto == 003) {
+            System.out.println("Produto: Prego");
+        } else {
+            System.out.println("Produto: Diversos");
+        }
+
+
+
+
+
+
+
+
+
+
 
     sc.close();
     }
