@@ -1,4 +1,4 @@
-package com.softelse.solutis.lista02;
+package com.softelse.solutis.lista1;
 
 public class Exercicio06 {
     public static void main(String[] args) {
