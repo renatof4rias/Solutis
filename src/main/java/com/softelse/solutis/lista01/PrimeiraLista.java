@@ -19,7 +19,17 @@ possuir o valor da variável A. Apresentar os valores trocados.
         A = B;
         B = auxiliar;
 
+/*
+8. Escreva uma classe que verifica se um dado número inteiro é par ou ímpar.
+*/
+        System.out.println("Informe um Valor Inteiro");
+        int numeroInteiro = sc.nextInt();
 
+       if ( numeroInteiro % 2 == 0){
+           System.out.println("Par");
+       }else {
+           System.out.println("Impar");
+       }
 
 
     sc.close();
