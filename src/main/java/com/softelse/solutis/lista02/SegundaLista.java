@@ -15,7 +15,13 @@ public class SegundaLista {
 /*
 2. Faça um programa que receba 2 valores e retorne o maior entre eles.
 */
+        System.out.print("Digite o primeiro valor: ");
+        int valor1 = sc.nextInt();
+        System.out.print("Digite o segundo valor: ");
+        int valor2 = sc.nextInt();
+        int maior = (valor1 > valor2) ? valor1 : valor2;
 
+        System.out.println("O maior valor é: " + maior);
 
 
 
