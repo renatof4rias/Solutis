@@ -31,6 +31,20 @@ possuir o valor da variável A. Apresentar os valores trocados.
            System.out.println("Impar");
        }
 
+/*
+9. Encontre o quadrado dos números de 0 até 10. Utilize o controle de fluxo for.
+*/
+
+        for (int i = 0; i <= 10; i++) {
+            int quadrado = i * i;
+            System.out.println("O quadrado de " + i + " é: " + quadrado);
+        }
+
+
+
+
+
+
 
     sc.close();
     }
