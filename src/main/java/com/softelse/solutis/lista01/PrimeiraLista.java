@@ -102,22 +102,35 @@ Para qualquer outro código: XXX ? Diversos.
 14. Faça um programa que utilize a estrutura while para ler 50 números e calcule e exiba a média aritmética deles. (Pesquise sobre como realizar entrada de dados)
  */
 
+        int contado = 0;
+        double som1 = 0.0;
+
+        while (contado < 50) {
+            System.out.print("Digite um número (" + (contado + 1) + " de 50): ");
+            double numero = sc.nextDouble();
+            som1 += numero;
+            contado++;
+        }
+        double medi1= som1 / 50;
+        System.out.println("A média aritmética dos 50 números é: " + medi1);
+
+
+/*
+15. Refaça o programa anterior utilizando a estrutura do while.
+*/
+
         int contador = 0;
         double soma = 0.0;
-
-        while (contador < 50) {
+        do {
             System.out.print("Digite um número (" + (contador + 1) + " de 50): ");
             double numero = sc.nextDouble();
             soma += numero;
             contador++;
-        }
+        } while (contador < 50);
         double media = soma / 50;
         System.out.println("A média aritmética dos 50 números é: " + media);
 
 
-        /*
-
-         */
         sc.close();
     }
 }
