@@ -2,7 +2,7 @@ package com.softelse.solutis.livraria.model;
 
 import java.util.List;
 
-public class Livro {
+public abstract class Livro {
     private String titulo;
     private List<String> autores;
     private String editora;
